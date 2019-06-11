@@ -72,7 +72,6 @@ int delete_duplicates_optimal(vector<int>* A_ptr)
     if (a.size() == 0)
     {
         return 0;
-
     }
     int prev = a[0];
     int dupe_count = 0;
